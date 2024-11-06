@@ -1,0 +1,51 @@
+body{
+    background-color: #ececec;
+}
+header h1{
+    background-color: rgba(16, 228, 79, 0.877);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0 auto 60px;
+    color:white ;
+    border-radius: 20px 0;
+}
+.cards{
+    display: flex;
+    margin-bottom: 50px;
+}
+.card{
+    background-color: rgba(16, 228, 79, 0.877);
+    width: 24%;
+    margin-right: 15px;
+    height: auto;
+    text-align: center;
+    color: gray;
+    border-radius: 15px 0 ;
+    padding: 10px;
+    font-size: 10px;
+}
+.card img{
+    width: 100%;
+    border: 2px white solid;
+}
+.card button{
+    margin: 10px;
+    padding: 7px;
+    border-radius: 15px 0;
+    background-color: rgb(10, 206, 206);
+    color: antiquewhite;
+    cursor:pointer;
+    border: 0;
+}
+.card .price{
+    color: rgb(255, 243, 71);
+    font-size: 15px;
+}
+.card h1{
+    color: aliceblue;
+    font-size: large;
+} 
